@@ -1,0 +1,163 @@
+body {
+    font-family: Roboto, 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 0px 50px;
+}
+
+.header .logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.hero-section {
+    background-color: #1F2937;
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+}
+
+.hero-section .left-column {
+    flex: 1;
+}
+
+.hero-section .image {
+    flex: 1;
+    width: 300px;
+    color: #E5E7EB;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .left-column .main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-section .left-column .sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cta {
+    padding: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.information-section .header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.information-section .cards-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.information-section .cards-section .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.information-section .cards-section .card .square {
+    width: 150px;
+    height: 150px;
+    border: 10px;
+    border-color: #3882F6;
+    background-color: #3882F6;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section .quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-section .author{
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.cta-section{
+    padding: 50px;
+}
+
+.cta-section .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    
+}
+
+.cta-section .container .left-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+/*
+main font Roboto
+header logo text -> 24px - #F9FAF8
+hero (this website is awesome) -> 48px - #F9FAF8 weight 900
+button color & cta bg color -> #3882F6
+info header text -> 36px - #1F2937 - weight 900
+quote section bg color -> #E5E7EB
+quote text -> 36px light italic #1F2937
+hero & footer -> dark background color #1F2937
+Hero secondary text & link text -> 18px - #E5E7EB
+*/
